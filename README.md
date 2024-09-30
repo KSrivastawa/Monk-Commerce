@@ -14,8 +14,7 @@ certain threshold.
 of products (e.g., Buy 3 of Product X or Product Y, get 1 of Product P and Product
 Q free and so on).
 
-# Note 
-- Scheduler Implemented for expiring the coupon on weekly basis.
+- Note: Scheduler Implemented for expiring the coupon on weekly basis.
   
 
 3. API Endpoints:
