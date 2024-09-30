@@ -15,11 +15,12 @@ of products (e.g., Buy 3 of Product X or Product Y, get 1 of Product P and Produ
 Q free and so on).
 
 
-- Note: Scheduler implemented to expire coupon on weekly basis.
-  
+- Note: Scheduler Implemented for expiring the coupon on weekly basis.
+
 
 3. API Endpoints:
 ● POST /coupons: Create a new coupon.
+
 
 ![createCoupon](https://github.com/user-attachments/assets/9fbc39b2-8a9a-4622-8486-5f19d1cea1e2)
 
@@ -50,7 +51,11 @@ updated cart with discounted prices for each item.
 
 4. Coupon Structure:
 ● Each coupon have an ID, type (cart-wise, product-wise, BxGy), discount
-details, and conditions for applicability.
+details, and conditions etc for applicability.
+
+![ER_Diagram for Coupon](https://github.com/user-attachments/assets/22889520-c178-4f76-aba7-77efee14fcc6)
+
+
 ● The implementation designed to easily add new types of coupons in
 the future.
 5. Database:
