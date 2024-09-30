@@ -16,6 +16,10 @@ Q free and so on).
 2. API Endpoints:
 ● POST /coupons: Create a new coupon.
 
+# Note 
+- Scheduler Implemented for expiring the coupon on weekly basis.
+   
+
 ![createCoupon](https://github.com/user-attachments/assets/9fbc39b2-8a9a-4622-8486-5f19d1cea1e2)
 
 ● GET /coupons: Retrieve all coupons.
