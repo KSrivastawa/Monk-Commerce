@@ -13,7 +13,12 @@ certain threshold.
 ● BxGy: “Buy X, Get Y” deals with a repetition limit and can be applicable to a set
 of products (e.g., Buy 3 of Product X or Product Y, get 1 of Product P and Product
 Q free and so on).
-2. API Endpoints:
+
+
+- Note: Scheduler implemented to expire coupon on weekly basis.
+  
+
+3. API Endpoints:
 ● POST /coupons: Create a new coupon.
 
 ![createCoupon](https://github.com/user-attachments/assets/9fbc39b2-8a9a-4622-8486-5f19d1cea1e2)
