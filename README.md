@@ -45,7 +45,11 @@ updated cart with discounted prices for each item.
 
 4. Coupon Structure:
 ● Each coupon have an ID, type (cart-wise, product-wise, BxGy), discount
-details, and conditions for applicability.
+details, and conditions etc for applicability.
+
+![ER_Diagram for Coupon](https://github.com/user-attachments/assets/22889520-c178-4f76-aba7-77efee14fcc6)
+
+
 ● The implementation designed to easily add new types of coupons in
 the future.
 5. Database:
